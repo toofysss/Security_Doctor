@@ -55,6 +55,16 @@ SecurityDoctor-API
 - 🛠 إعدادات متقدمة لحماية الحساب
 - 🌐 اتصال مباشر مع API لتحديث البيانات بشكل دوري
 
+SecurityDoctor-Mobile
+├── src
+│   ├── components
+│   ├── screens
+│   ├── services
+│   ├── utils
+├── assets
+├── App.js
+├── package.json
+
 
 
 ### 🚀 كيفية التشغيل
