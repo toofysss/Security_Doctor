@@ -18,18 +18,19 @@
 - 🚀 **إدراج بيانات أولية تلقائيًا** عند تشغيل التطبيق
 
 ### 📂 هيكلة المشروع
-SecurityDoctor-API
-├── Configurations
-│   ├── SeedDataConfiguration.cs
-├── Entities
-│   ├── User.cs, Role.cs, SecurityLog.cs
-├── Middleware
-│   ├── JwtMiddleware.cs, LoggingMiddleware.cs, ErrorHandlingMiddleware.cs
-├── Repositories
-│   ├── AuthRepository.cs, SecurityRepository.cs
-├── Services
-│   ├── AuthService.cs, SecurityService.cs
-├── Migrations
+```bash
+   SecurityDoctor-API
+   ├── Configurations
+   │   ├── SeedDataConfiguration.cs
+   ├── Entities
+   │   ├── User.cs, Role.cs, SecurityLog.cs
+   ├── Middleware
+   │   ├── JwtMiddleware.cs, LoggingMiddleware.cs, ErrorHandlingMiddleware.cs
+   ├── Repositories
+   │   ├── AuthRepository.cs, SecurityRepository.cs
+   ├── Services
+   │   ├── AuthService.cs, SecurityService.cs
+   ├── Migrations
 
 
 
