@@ -18,8 +18,6 @@
 - 🚀 **إدراج بيانات أولية تلقائيًا** عند تشغيل التطبيق
 
 ### 📂 هيكلة المشروع
-
-
 SecurityDoctor-API
 ├── Configurations
 │   ├── SeedDataConfiguration.cs
