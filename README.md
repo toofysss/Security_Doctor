@@ -1,10 +1,9 @@
+
 # Security Doctor
 
 **Security Doctor** هو نظام متكامل يوفر حماية وأمان متقدمين للمستخدمين. يتكون المشروع من جزئين رئيسيين: **API** و **Mobile Application**.
 
----
-
-## 🖥 Security Doctor API
+# Security Doctor API
 
 ### ✨ الميزات
 - 🔒 **إدارة المستخدمين والصلاحيات** (Admin, User)
@@ -18,6 +17,7 @@
 - 🚀 **إدراج بيانات أولية تلقائيًا** عند تشغيل التطبيق
 
 ### 📂 هيكلة المشروع
+```bash
    SecurityDoctor-API
    ├── Configurations
    │   ├── SeedDataConfiguration.cs
@@ -30,20 +30,16 @@
    ├── Services
    │   ├── AuthService.cs, SecurityService.cs
    ├── Migrations
-
-
+```
 
 
 ### 🚀 كيفية التشغيل
 
-1. قم بتنزيل المشروع أو استنساخه:
-
-   ```bash
-   git clone https://github.com/toofysss/Security_Doctor.git
-
-
+  - قم بتنزيل المشروع 
+```bash
+  git clone https://github.com/toofysss/Security_Doctor.git
+```
 ## Security Doctor Mobile App
-
 
 
 ### ✨ الميزات
@@ -53,6 +49,10 @@
 - 🛠 إعدادات متقدمة لحماية الحساب
 - 🌐 اتصال مباشر مع API لتحديث البيانات بشكل دوري
 
+
+
+### 📂 هيكلة المشروع
+```bash
 SecurityDoctor-Mobile
 ├── src
 │   ├── components
@@ -63,13 +63,24 @@ SecurityDoctor-Mobile
 ├── App.js
 ├── package.json
 
+```
 
 
 ### 🚀 كيفية التشغيل
 
-1. قم بتنزيل المشروع أو استنساخه:
+
+- قم بتنزيل المشروع أو استنساخه:
 
    ```bash
+   flutter clean
    flutter pub get
+  ```
+  ### الالوان المستخدمة
+
+
+| Color             | Hex   |
+| --------| ------------------------------------------------------------------ |
+| Primary | #325B90 |
+| Bg      | #F0F4FC |
 
 
